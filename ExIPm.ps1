@@ -20,8 +20,8 @@
             * Parses and validates random input into arrays of IPv4 and IPv6 formatted strings
             * Converts input IP Address into longint or bigint format for range validation
             * Validates input contains only non-RFC1918 IPv4 and non-Reserved IPv6 Addresses
+
         o Handles connections to 3 million+ row CSV as if it were a Database
-         
             * Query Function with object input provides query, provider, and connection string data
             * Queries Maxmind CSV with a SQL BETWEEN statement to determine if integer in range
 
